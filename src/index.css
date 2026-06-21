@@ -694,6 +694,10 @@ button {
     opacity: 1;
   }
 
+  .app-shell:has(.home-title-stage)::before {
+    opacity: 0;
+  }
+
   .home-title {
     font-size: clamp(6.5rem, 34vw, 10rem);
   }
