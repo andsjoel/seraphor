@@ -73,6 +73,39 @@ export function AppLayout({ children }: AppLayoutProps) {
     }
   }, [])
 
+  useEffect(() => {
+    if (!isMobileViewport() || (!isMenuOpen && !isThemeMenuOpen)) {
+      return
+    }
+
+    const scrollY = window.scrollY
+    const originalBodyPosition = document.body.style.position
+    const originalBodyTop = document.body.style.top
+    const originalBodyWidth = document.body.style.width
+    const originalBodyOverflow = document.body.style.overflow
+    const originalHtmlOverflow = document.documentElement.style.overflow
+    const originalHtmlOverscrollBehavior =
+      document.documentElement.style.overscrollBehavior
+
+    document.documentElement.style.overflow = 'hidden'
+    document.documentElement.style.overscrollBehavior = 'none'
+    document.body.style.position = 'fixed'
+    document.body.style.top = `-${scrollY}px`
+    document.body.style.width = '100%'
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      document.documentElement.style.overflow = originalHtmlOverflow
+      document.documentElement.style.overscrollBehavior =
+        originalHtmlOverscrollBehavior
+      document.body.style.position = originalBodyPosition
+      document.body.style.top = originalBodyTop
+      document.body.style.width = originalBodyWidth
+      document.body.style.overflow = originalBodyOverflow
+      window.scrollTo(0, scrollY)
+    }
+  }, [isMenuOpen, isThemeMenuOpen])
+
   return (
     <div className={`app-shell ${isInterfaceAwake ? 'is-awake' : ''}`}>
       <main className="app-content">{children}</main>
