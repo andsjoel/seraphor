@@ -1,0 +1,27 @@
+<svg width="238" height="18" viewBox="0 0 238 18" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mystic fantasy title divider">
+  <g fill="none" stroke="currentColor" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10.2 9H90.2"/>
+    <path d="M147.8 9H227.8"/>
+    <path d="M119 1L126.6 6.1L130.8 9L126.6 11.9L119 17L111.4 11.9L107.2 9L111.4 6.1L119 1Z"/>
+    <path d="M119 2.95v12.1"/>
+    <path d="M111.4 6.1c2.6 1.1 5.15 1.35 7.6 .75c2.45 .6 5 .35 7.6-.75"/>
+    <path d="M111.4 11.9c2.6-1.1 5.15-1.35 7.6-.75c2.45-.6 5-.35 7.6 .75"/>
+    <path d="M107.2 9c-4.9-4.3-9.15-5.55-12-3.55c-2.65 1.85-2.65 5.25 0 7.1c2.85 2 7.1 .75 12-3.55Z"/>
+    <path d="M130.8 9c4.9-4.3 9.15-5.55 12-3.55c2.65 1.85 2.65 5.25 0 7.1c-2.85 2-7.1 .75-12-3.55Z"/>
+    <path d="M100.5 9c1.75-.7 3.9-.7 6.45 0"/>
+    <path d="M137.5 9c-1.75-.7-3.9-.7-6.45 0"/>
+    <path d="M5.5 3.9L10.6 9L5.5 14.1L.4 9L5.5 3.9Z"/>
+    <path d="M232.5 3.9L237.6 9L232.5 14.1L227.4 9L232.5 3.9Z"/>
+    <path d="M15.9 9H5.5"/>
+    <path d="M222.1 9h10.4"/>
+    <path d="M7.05 .65L15.9 9L7.05 17.35"/>
+    <path d="M230.95 .65L222.1 9L230.95 17.35"/>
+    <path d="M27 9c4.2-4.1 8.35-4.1 12.55 0c-4.2 4.1-8.35 4.1-12.55 0Z"/>
+    <path d="M211 9c-4.2-4.1-8.35-4.1-12.55 0c4.2 4.1 8.35 4.1 12.55 0Z"/>
+    <path d="M48 9c5.3-2.4 10.6-2.4 15.9 0"/>
+    <path d="M190 9c-5.3-2.4-10.6-2.4-15.9 0"/>
+    <circle cx="119" cy="9" r="1.05" fill="currentColor" stroke="none"/>
+    <circle cx="55.95" cy="9" r=".6" fill="currentColor" stroke="none"/>
+    <circle cx="182.05" cy="9" r=".6" fill="currentColor" stroke="none"/>
+  </g>
+</svg>
